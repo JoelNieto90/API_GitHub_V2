@@ -1,0 +1,19 @@
+.bgcolor {
+    background-color: #0e0e24;
+    color: #999696;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table {
+    color: #ffffff !important;
+    font-size: 18px;
+}
