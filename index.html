@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo API GitHub</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="bgcolor">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 h1">
+                    <h1>API GitHub </h1>
+                </div>
+
+                <div class="input-group mb-3 col-md-6 offset-md-3">
+                    <input type="text" id="UserNameInput" class="form-control form-control-md" placeholder="Username GitHub">
+                    <div class="input-group-append">
+                      <button id="btn" onclick="searchAPI()"  class="btn btn-success" type="button">Buscar</button>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-3 text">
+                    <h3>Repositorios del usuario</h3>
+                    <div class="mt-5">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Name</th>
+                              </tr>
+                            </thead>
+                            <tbody id="repos">
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
